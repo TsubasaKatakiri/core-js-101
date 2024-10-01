@@ -73,7 +73,7 @@ function doubleArray(arr) {
  *    [] => []
  */
 function getArrayOfPositives(arr) {
-  return arr.filter((i) => i > 1);
+  return arr.filter((i) => i > 0);
 }
 
 /**
@@ -120,7 +120,7 @@ function removeFalsyValues(arr) {
  *    [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ]  => [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
  */
 function getUpperCaseStrings(arr) {
-  return arr.map((item) => item.toUpperCase);
+  return arr.map((item) => item.toUpperCase());
 }
 
 
